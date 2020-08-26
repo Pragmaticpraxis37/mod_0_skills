@@ -7,7 +7,7 @@ number_pad: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 cash_drawer_lock_engaged: off
 
 turn_cash_register_on (turns cash register from off to on by modifying the
-boolean value) = register is on
+boolean value in cash_register_on) = register is on
 add_amounts (adds amounts entered on the number_pad) = 12.00 + 14.00
 cash_drawer_locked (locks the cash_drawer by modifying the boolean value
 on cash_drawer_lock_engaged) = cash drawer locked

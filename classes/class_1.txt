@@ -7,7 +7,7 @@ number_pad (array)
 cash_drawer_lock_engaged (boolean)
 
 turn_cash_register_on (turns cash register from off to on by modifying the
-boolean value)
+boolean value in cash_register_on)
 add_amounts (adds amounts entered on the number_pad)
 cash_drawer_locked (locks the cash_drawer by modifying the boolean value
 on cash_drawer_lock_engaged)
