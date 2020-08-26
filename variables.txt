@@ -1,0 +1,17 @@
+food = "It's great, I just tried it tonight"
+
+is_delicious = true
+
+food = "A delight"
+
+num2 = 7
+
+num7 = 21
+
+quotient = num7/num2
+
+songs = ["Hello", "Roll With It", "Wonderwall", "Some Might Say"]
+
+songs.shift
+
+food.length
