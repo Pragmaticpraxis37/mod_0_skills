@@ -1,0 +1,14 @@
+CashRegister
+
+cash_register_on (boolean)
+amount_display (float)
+cash_drawer (string)
+number_pad (integers)
+cash_drawer_lock_engaged (boolean)
+
+turn_cash_register_on (turns cash register from off to on by modifying the
+boolean value)
+add_amounts (adds amounts entered on the number_pad)
+cash_drawer_locked (locks the cash_drawer by modifying the boolean value
+on cash_drawer_lock_engaged)
+display_total (displays total of add_amount method on amount_display)
