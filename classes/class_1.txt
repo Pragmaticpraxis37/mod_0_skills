@@ -3,7 +3,7 @@ CashRegister
 cash_register_on (boolean)
 amount_display (float)
 cash_drawer (string)
-number_pad (integers)
+number_pad (array)
 cash_drawer_lock_engaged (boolean)
 
 turn_cash_register_on (turns cash register from off to on by modifying the
