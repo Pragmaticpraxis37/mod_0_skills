@@ -1,19 +1,18 @@
-Oven
+Class: Oven
 
+Attributes:
 heating_element_on (boolean)
 oven_open (boolean)
-fix_termperature (boolean)
-temperature_up (integers)
-temperature_down (integers)
+temperature (integer)
 timer (datetime)
 
-turn_heating_element_on (turns heat in oven from off to on by modifying the
-boolean value in heating_element_on)
+Methods:
+turn_heating_element_on (turns heating element in oven by modifying the boolean
+value in heating_element_on from false to true)
 insert_food (puts food into the oven by modifying the oven_open boolean
-value to open the over and then inserting food and then modifying the boolean
-value again to close the oven door)
-set_termperature (uses temperature_up and temperature_down to set the desired
-temperature)
-temperature_fixed (modifies the boolean value of fix_termperature and uses timer
-to set a fixed time for the temperature to be at the level denoted in
-set_termperature)
+value from false to true, inserting food, and then modifying the boolean
+value again to false to close the oven)
+timed (uses timer to set a fixed amount of time for the temperature to be at the
+level set by using temperature_up and temperature_down)
+temperature_up (increases temperature's current temperature)
+temperature_down (decreases temperature's current temperature)

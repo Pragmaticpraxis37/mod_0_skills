@@ -1,14 +1,16 @@
-ringy_register_500
+Object: ringy_register_500
 
-cash_register_on: off
+Attributes:
+cash_register_on: false
 amount_display: 0.00
-cash_drawer: "empty"
+cash_drawer: "cash drawer"
 number_pad: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-cash_drawer_lock_engaged: off
+cash_drawer_lock_engaged: false
 
-turn_cash_register_on (turns cash register from off to on by modifying the
-boolean value in cash_register_on) = register is on
+Methods:
+turn_cash_register_on (turns cash register on by modifying the boolean value in
+cash_register_on from false to true) = true
 add_amounts (adds amounts entered on the number_pad) = 12.00 + 14.00
 cash_drawer_locked (locks the cash_drawer by modifying the boolean value
-on cash_drawer_lock_engaged) = cash drawer locked
+on cash_drawer_lock_engaged from false to true) = true
 display_total (displays total of add_amount method on amount_display) = 26.00
